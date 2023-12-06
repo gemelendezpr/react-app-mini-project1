@@ -2,9 +2,9 @@
 
 const Navbar = () => {
   return (
-    <div>Navbar
-        <img src="image path" alt="logo" class='company-logo'/>
-        <span class='company-name'>MiniApp E-Commerce</span>
+    <div className='nav-bar'>
+        <img src="src/assets/ecommerce.png" alt="logo" class='company-logo'/>
+        <span class='company-name'><strong>MiniApp E-Commerce</strong></span>
     </div>
   )
 }

@@ -4,6 +4,7 @@
   justify-content: space-between;
   min-height: 98vh;
   width: 99vw;
+  font-family: 'Hedvig Letters Serif', serif;
 }
 
 .app-container {
@@ -11,4 +12,38 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
+}
+
+.company-logo {
+  width: 10%;
+  height: 10%;
+}
+
+.company-name {
+  font-size: 1.5em;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 15px;
+  align-content: center;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.side-bar > a {
+  font-family: 1.5rem;
+}
+
+
+.home-page {
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
 }
