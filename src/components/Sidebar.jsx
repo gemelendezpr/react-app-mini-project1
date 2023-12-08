@@ -1,10 +1,10 @@
-
+import React, { useState } from 'react';
+import Dropdown from './Dropdown';
 
 const Sidebar = () => {
   return (
     <div className="side-bar">
-        <a href="src/pages/HomePage.jsx">Home</a>
-        <a href="src/pages/AboutPage.jsx">About</a>
+        <Dropdown/>
     </div>
   )
 }

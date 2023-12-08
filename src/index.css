@@ -4,31 +4,106 @@
   justify-content: space-between;
   min-height: 98vh;
   width: 99vw;
-  font-family: 'Hedvig Letters Serif', serif;
+  font-family: 'poppins';
 }
 
 .app-container {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  min-height: 98vh;
+  width: 90vw;
   justify-content: space-between;
-}
-
-.company-logo {
-  width: 10%;
-  height: 10%;
-}
-
-.company-name {
-  font-size: 1.5em;
 }
 
 .nav-bar {
   display: flex;
-  gap: 15px;
-  align-content: center;
-  border: 1px solid black;
+  justify-content: space-around;
+  padding: 16px;
+  box-shadow: 0 1px 3px -2px black;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;  
+  gap: 10px;            
+}
+
+.nav-logo img {
+  width: 150px;           
+  height: auto;       
+}
+
+
+.nav-logo p {
+  color: black;
+  margin: 0;           
+  font-size: 38px;     
+  font-weight: 600;
+}
+
+.nav-menu{
+  display: flex;
   align-items: center;
+  list-style: none;
+  gap: 50px;
+  color: #626262;
+  font-size: 20px;
+  font-weight:500;
+}
+
+.nav-menu li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.nav-menu hr{
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background:  rgb(9, 245, 25);
+
+}
+
+.nav-login-cart{
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav-login-cart button{
+  width: 157px;
+  height: 58px;
+  outline: none;
+  border: 1px solid #7a7a7a ;
+  border-radius: 75px;
+  color: #515151;
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+}
+
+.nav-login-cart button:active{
+  background: #f3f3f3;
+}
+
+.nav-cart-count{
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  margin-left: -55px;
+  border-radius: 11px;
+  font-size: 14px;
+  background: green;
+  color: white;
 }
 
 .side-bar {
@@ -42,8 +117,46 @@
 }
 
 
+/* lisi home page*/
+
 .home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products-sale {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-left: 176px;
+  padding-bottom: 44px;
+  align-self: center;
+}
+
+.product-card {
   border: 1px solid black;
-  width: 500px;
-  height: 500px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 8px;
+  font-size: 1.2em;
+  width: 350px;
+}
+
+.product-image {
+  width: 250px;
+  height: 150px;
+  align-self: center;
+}
+
+.product-rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
 }

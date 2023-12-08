@@ -1,10 +1,8 @@
-
+import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-        <a href="https://github.com/gemelendezpr/react-app-mini-project1">Repository</a>
-    </div>
+    <div>Footer</div>
   )
 }
 
