@@ -1,5 +1,5 @@
+import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import HomePage from "./pages/HomePage";
 import Footer from "./components/Footer";
@@ -7,18 +7,16 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeCategory from "./pages/HomeCategory";
 import LoginSignUp from "./pages/LoginSignUp";
 import Cart from "./pages/Cart";
-import Product from "./pages/Product";
+import Product from "./components/assets/products.js";
+import Navbar from "./components/Navbar/Navbar.jsx";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar />
+        <Navbar/>
         <div className="app-container">
-          {/* Move Sidebar inside the Routes */}
-          <Routes>
-            <Route path="/" element={<Sidebar />} />
-          </Routes>
+        <Sidebar /> 
 
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -35,7 +33,7 @@ function App() {
         </div>
       </BrowserRouter>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

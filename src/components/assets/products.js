@@ -1,4 +1,4 @@
-[
+export const products = [
     {
       "id": 1,
       "title": "iPhone 9",
@@ -1833,3 +1833,5 @@
       ]
     }
   ]
+
+  export default products;

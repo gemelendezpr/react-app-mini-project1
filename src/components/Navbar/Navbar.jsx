@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import cart_icon from '../assets/cart_icon.png'
+import logo from '../assets/ecommerce2.png' 
+import './Navbar.css'
 import React, { useState } from 'react';
 
 
@@ -10,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='nav-bar'>
         <div className="nav-logo">
-        <img src="src/assets/ecommerce2.png" alt="logo"/>
+        <img src="src/components/assets/ecommerce2.png" alt="logo"/>
         <p>Tropify</p>
         </div>
         <ul className="nav-menu">
