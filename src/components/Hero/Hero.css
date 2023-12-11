@@ -1,6 +1,6 @@
 .hero{
 display: flex;
-/* background: linear-gradient(180deg, #82afd2, #fff9e122 60%); */
+background: linear-gradient(180deg, #82afd2, #fff9e122 60%);
 height: 100vh;
 }
 
@@ -56,5 +56,5 @@ height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 300px;
+    /* margin-left: 410px; */
 }
