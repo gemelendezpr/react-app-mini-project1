@@ -2,46 +2,24 @@
   margin: 0;
 }
 
-
 .App {
-<<<<<<< HEAD
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-around; */
-  /* width: 10w; */
-  font-family: 'poppins';
-  /* background: linear-gradient(180deg, #82afd2, #fff9e122 60%); */
-=======
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 99vw;
   font-family: "poppins";
->>>>>>> 1ae844a (mini-project done)
 }
 
 .app-container {
   /* display: flex; */
+  display: flex;
   flex-direction: row;
-<<<<<<< HEAD
-  min-height: 100vh;
-  /* width: 0vw; */
-  justify-content: space-between;
-  /* background: linear-gradient(180deg, #82afd2, #fff9e122 60%); */
-  height: 100vh;
-  /* padding-left: 0px; */
-}
-
-.side-bar {
-  /* display: flex; */
-=======
   /* gap: 80px; */
 }
 
 .side-bar {
   padding: 24px 84px 0px 12px;
   display: flex;
->>>>>>> 1ae844a (mini-project done)
   flex-direction: column;
   gap: 48px;
 }
@@ -76,8 +54,6 @@
   display: flex;
   justify-content: space-between;
 }
-<<<<<<< HEAD
-=======
 
 .form-container {
   max-width: 700px;
@@ -120,4 +96,3 @@
 .form-container button:hover {
   background-color: rgb(2, 112, 4);
 }
->>>>>>> 1ae844a (mini-project done)

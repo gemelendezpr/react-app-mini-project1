@@ -1,9 +1,5 @@
 import React from "react";
-<<<<<<< HEAD
-import "./About.css";
-=======
 import "./AboutPage.css";
->>>>>>> 1ae844a (mini-project done)
 import github_icon from "../assets/github_icon.png";
 import linkedin_icon from "../assets/linkedin_icon.png";
 import team_member1 from "../assets/team_member1.png";
@@ -13,11 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function AboutPage() {
   let message =
-<<<<<<< HEAD
-    "Meet the dynamic trio behind Tropify: the brain, the brawn, and the one who insists that coconuts make everything better. Together, we’re blending Puerto Rican spice with Cuban flair, proving that when you mix two islands, you get a tropical paradise on your doorstep. So, grab your virtual sunglasses, because our team is here to make shopping as sunny and vibrant as a Caribbean beach day – minus the sand in your shoes!";
-=======
     "Meet the dynamic trio behind Tropify: the brain, the brawn, and the one who insists that coconuts make everything better. Together, we're blending Puerto Rican spice with Cuban flair, proving that when you mix two islands, you get a tropical paradise on your doorstep. So, grab your virtual sunglasses, because our team is here to make shopping as sunny and vibrant as a Caribbean beach day – minus the sand in your shoes!";
->>>>>>> 1ae844a (mini-project done)
   return (
     <section className="section-white">
       <div className="container">
@@ -108,11 +100,7 @@ function AboutPage() {
           </div>
 
           <div className="col-sm-6 col-md-4">
-<<<<<<< HEAD
-            <div className="team-item"> 
-=======
             <div className="team-item">
->>>>>>> 1ae844a (mini-project done)
               <img src={team_member3} className="team-img" alt="pic" />
               <h3>GERARDO MELÉNDEZ</h3>
               <div className="team-info">

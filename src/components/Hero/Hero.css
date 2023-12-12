@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-.hero{
-display: flex;
-background: linear-gradient(180deg, #82afd2, #fff9e122 60%);
-height: 100vh;
-=======
 .hero {
   display: flex;
   /* justify-content: space-between; */
   background: linear-gradient(180deg, #82afd2, #fff9e122 60%);
   /* height: 100vh; */
->>>>>>> 1ae844a (mini-project done)
 }
 
 .hero-left {
@@ -58,19 +51,10 @@ height: 100vh;
   font-size: 20px;
 }
 
-<<<<<<< HEAD
-.hero-right{
-    flex:1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* margin-left: 410px; */
-=======
 .hero-right {
   /* flex: 1; */
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 300px;
->>>>>>> 1ae844a (mini-project done)
 }

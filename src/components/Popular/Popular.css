@@ -19,16 +19,6 @@
   background: #252525;
 }
 
-<<<<<<< HEAD
-.popular-items{
-    margin-top: 50px;
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-=======
 .popular-items {
   margin-top: 50px;
   display: flex;
@@ -36,4 +26,3 @@
   flex-wrap: wrap;
   justify-content: center;
 }
->>>>>>> 1ae844a (mini-project done)

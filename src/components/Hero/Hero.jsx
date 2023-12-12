@@ -19,9 +19,6 @@ const Hero = () => {
           <p>FOR EVERYONE</p>
         </div>
         <div className="hero-latest-btn">
-<<<<<<< HEAD
-          <div>Explore Collection</div>
-=======
           <Link
             to="/explore"
             style={{ textDecoration: "none", color: "white" }}
@@ -29,7 +26,6 @@ const Hero = () => {
             <div>Explore Collection</div>
           </Link>
 
->>>>>>> 1ae844a (mini-project done)
           <img src={arrow_icon} alt="" />
         </div>
       </div>
