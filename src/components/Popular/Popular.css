@@ -1,24 +1,25 @@
-.popular{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    height: 90vh;
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 10px; */
+  /* height: 90vh; */
 }
 
-.popular h1{
-    color: #171717;
-    font-size: 50px;
-    font-weight: 600;
+.popular h1 {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 600;
 }
 
-.popular hr{
-    width:200px;
-    height: 6px;
-    border-radius: 10px;
-    background: #252525;
+.popular hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background: #252525;
 }
 
+<<<<<<< HEAD
 .popular-items{
     margin-top: 50px;
     display: flex;
@@ -27,3 +28,12 @@
     justify-content: center;
 }
 
+=======
+.popular-items {
+  margin-top: 50px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+>>>>>>> 1ae844a (mini-project done)

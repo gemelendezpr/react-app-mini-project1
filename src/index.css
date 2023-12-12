@@ -1,20 +1,29 @@
-*{
-  margin:0;
+* {
+  margin: 0;
 }
 
 
 .App {
+<<<<<<< HEAD
   /* display: flex; */
   /* flex-direction: column; */
   /* justify-content: space-around; */
   /* width: 10w; */
   font-family: 'poppins';
   /* background: linear-gradient(180deg, #82afd2, #fff9e122 60%); */
+=======
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 99vw;
+  font-family: "poppins";
+>>>>>>> 1ae844a (mini-project done)
 }
 
 .app-container {
   /* display: flex; */
   flex-direction: row;
+<<<<<<< HEAD
   min-height: 100vh;
   /* width: 0vw; */
   justify-content: space-between;
@@ -25,14 +34,21 @@
 
 .side-bar {
   /* display: flex; */
+=======
+  /* gap: 80px; */
+}
+
+.side-bar {
+  padding: 24px 84px 0px 12px;
+  display: flex;
+>>>>>>> 1ae844a (mini-project done)
   flex-direction: column;
-  gap: 10px
+  gap: 48px;
 }
 
 .side-bar > a {
   font-family: 1.5rem;
 }
-
 
 /* lisi home page*/
 
@@ -50,30 +66,58 @@
   align-self: center;
 }
 
-.product-card {
-  border: 1px solid black;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  padding: 8px;
-  font-size: 1.2em;
-  width: 350px;
-}
-
 .product-image {
   width: 250px;
   height: 150px;
   align-self: center;
 }
 
-.product-rate {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .price {
   display: flex;
   justify-content: space-between;
 }
+<<<<<<< HEAD
+=======
+
+.form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px;
+  margin-top: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-container textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.form-container button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(2, 112, 4);
+  color: white;
+  border: none;
+  border-radius: 75px;
+  cursor: pointer;
+  font-size: 18px;
+  align-self: center;
+  margin-top: 24px;
+}
+
+.form-container button:hover {
+  background-color: rgb(2, 112, 4);
+}
+>>>>>>> 1ae844a (mini-project done)
