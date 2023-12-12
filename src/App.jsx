@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
 import HomePage from "./pages/HomePage";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ShopCategory from "./pages/ShopCategory.jsx";
 import LoginSignUp from "./pages/LoginSignUp";
@@ -12,7 +12,7 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import men_banner from './components/assets/banner_mens.png'
 import women_banner from './components/assets/banner_womens.png'
 import explore_banner from './components/assets/banner_explore.png'
-
+import AboutPage from "./components/About/AboutPage.jsx"
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <div className="app-container">
-        <Sidebar /> 
+        {/* <Sidebar />  */}
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<ShopCategory category="about" />} />
@@ -33,7 +33,8 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/login" element={<LoginSignUp />} />
           </Routes>
-          {/* <Footer /> */}
+          <AboutPage/>
+          <Footer />
         </div>
       </BrowserRouter>
     </div>
