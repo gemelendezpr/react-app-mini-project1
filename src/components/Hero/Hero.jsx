@@ -1,8 +1,9 @@
 import React from "react";
-import '../Hero/Hero.css';
-import hand_icon from '../assets/hand_icon.png'
-import arrow_icon from '../assets/arrow.png';
-import hero_image from '../assets/hero_image.png';
+import "../Hero/Hero.css";
+import hand_icon from "../assets/hand_icon.png";
+import arrow_icon from "../assets/arrow.png";
+import hero_image from "../assets/hero_image.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -18,7 +19,13 @@ const Hero = () => {
           <p>FOR EVERYONE</p>
         </div>
         <div className="hero-latest-btn">
-          <div>Latest Collection</div>
+          <Link
+            to="/explore"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <div>Explore Collection</div>
+          </Link>
+
           <img src={arrow_icon} alt="" />
         </div>
       </div>

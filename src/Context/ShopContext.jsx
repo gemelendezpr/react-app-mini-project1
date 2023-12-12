@@ -1,10 +1,10 @@
-import React from "react";
-import products from "../components/assets/products";
+// import React from "react";
+// import products from "../components/assets/products";
 
-export const ShopContext = createContext(null);
+// export const ShopContext = createContext(null);
 
-const ShopContextProvider =(props)=> {
+// const ShopContextProvider =(props)=> {
 
-    const contextValue = {products}
+//     const contextValue = {products}
 
-}
+// }

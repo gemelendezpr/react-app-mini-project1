@@ -1,10 +1,9 @@
-import React from 'react'
+// import React from 'react'
 
+// const HomeCategory = () => {
+//   return (
+//     <div>HomeCategory</div>
+//   )
+// }
 
-const HomeCategory = () => {
-  return (
-    <div>HomeCategory</div>
-  )
-}
-
-export default HomeCategory;
+// export default HomeCategory;
